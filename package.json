@@ -8,8 +8,7 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish",
-    "commit": "cz",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "commit": "cz"
   },
   "engines": {
     "yarn": "^1.17.3",
