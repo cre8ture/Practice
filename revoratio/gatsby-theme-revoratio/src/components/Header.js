@@ -61,7 +61,8 @@ export default function Header({ handleMenuOpen }) {
 
   return (
     <Container>
-      <Logo aria-hidden="true"/>
+      {/* <Logo aria-hidden="true"/> */}
+      <Logo aria-hidden="false"/>
       <button aria-label="Open sidebar" type="button" onClick={handleMenuOpen}>
         <IoMenuOutline size={32} aria-hidden="true" />
       </button>

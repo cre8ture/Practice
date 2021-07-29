@@ -15,6 +15,7 @@ import { isExternalUrl } from '../../util/url';
 import ExternalLink from './ExternalLink';
 import InternalLink from './InternalLink';
 import Logo from '../Logo';
+// import Logo from './logoForMenu.png'
 
 function ListWithSubItems({ children, text }) {
   return (
@@ -52,11 +53,11 @@ export default function Sidebar({ isMenuOpen }) {
 
   return (
     <Container isMenuOpen={isMenuOpen}>
-      <LogoContainer>
+      {/* <LogoContainer>
         <Link to={basePath} aria-label="Go to home page">
           <Logo aria-hidden="true" />
         </Link>
-      </LogoContainer>
+      </LogoContainer> */}
       <nav>
         <List>
           {data.map(({ node: { label, link, items, id } }) => {
