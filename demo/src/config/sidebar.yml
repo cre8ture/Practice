@@ -1,0 +1,26 @@
+# Sidebar navigation
+
+# - label: 'Building Brand Guidelines'
+#   link: '/'
+# - label: Using Revoratio
+#   items:
+#     - label: 'Setup'
+#       link: '/theme/setup'    
+#     - label: 'MDX Styles'
+#       link: '/theme/mdx'
+#     - label: 'Brand Components'
+#       link: '/theme/brand'
+#     - label: 'Code'
+#       link: '/theme/code'
+#     - label: 'Customisation'
+#       link: '/theme/custom'  
+- label: Design System
+  items:
+    - label: 'Identity'
+      link: '/guidelines/identity'
+    - label: 'Typography'
+      link: '/guidelines/typography'
+    - label: 'Colour'
+      link: '/guidelines/colour'
+    - label: 'Illustration'
+      link: '/guidelines/illustration'
